@@ -1,0 +1,33 @@
+Senior Software Engineer - Python
+
+We are seeking a Senior Software Engineer with expertise in Python to join our growing tech team. You will be responsible for developing scalable web applications and APIs using modern frameworks.
+
+Must-Have Requirements:
+- 5+ years of Python development experience
+- Experience with Django or Flask frameworks
+- Strong knowledge of SQL databases (PostgreSQL preferred)
+- Experience with RESTful API development
+- Familiarity with Git version control
+- Bachelor's degree in Computer Science or related field
+
+Nice-to-Have Requirements:
+- Experience with AWS cloud services
+- Knowledge of Docker and containerization
+- Experience with React or Vue.js frontend frameworks
+- Familiarity with Redis and caching strategies
+- Experience with CI/CD pipelines
+- Knowledge of microservices architecture
+- Experience with GraphQL
+
+Key Responsibilities:
+- Design and develop scalable web applications
+- Build and maintain RESTful APIs
+- Collaborate with cross-functional teams
+- Write clean, maintainable code
+- Participate in code reviews
+- Troubleshoot and debug applications
+- Optimize application performance
+
+Company: TechCorp Inc.
+Industry: Software Technology
+Location: Remote/Hybrid
