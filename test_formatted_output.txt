@@ -1,0 +1,67 @@
+══════════════════════════════════════════════════════════
+
+Ashley Brown
+
+📧 ashley.brown@gmail.com | 📞 (555) 520-3583 | 🌍 Portland, OR | 💼 linkedin.com/in/ashley-brown
+
+══════════════════════════════════════════════════════════
+
+💼 PROFESSIONAL SUMMARY
+
+Results-driven technology professional with over 8 years of experience in JavaScript development, specializing in React.js and Node.js. Successfully implemented performance improvements, increasing system scalability by 30% and reducing response times by 25%. Proficient in SQL databases like PostgreSQL and MySQL, managing a user base growth of 40% year-over-year. Seeking to leverage expertise to drive innovation and enhance user experiences at a cutting-edge tech company.
+
+══════════════════════════════════════════════════════════
+
+🛠️ TECHNICAL EXPERTISE
+
+• Technical Skills: JavaScript (ES6+), React.js (v18.2), Node.js (v16.14), SQL (PostgreSQL, MySQL), AWS Cloud Platform, Docker Containerization, TypeScript
+• Programming Languages: JavaScript (ES6+), TypeScript
+• Frameworks & Tools: React.js (v18.2), Node.js (v16.14), AWS Cloud Platform, Docker
+• Additional Skills: Strong SQL Database Experience (PostgreSQL/MySQL), 5+ Years of JavaScript Development Experience, Expert-Level React.js and Node.js Skills
+
+══════════════════════════════════════════════════════════
+
+💼 PROFESSIONAL EXPERIENCE
+
+🏢 TechCorp - Senior Software Engineer
+🏢 April 2018 - Present | San Francisco, CA
+• Architected and developed a cutting-edge React.js and Node.js application, handling over 5 million monthly active users, resulting in a 40% increase in user engagement and a 25% decrease in bounce rate, showcasing expert-level React.js and Node.js skills.
+• Led a team of 8 developers in the migration of legacy systems to a cloud-native architecture on AWS, reducing infrastructure costs by $200K annually and improving system scalability by 50%, demonstrating strong leadership and cloud technology expertise.
+• Implemented advanced SQL optimization techniques on PostgreSQL databases, reducing query response time by 60% from 300ms to 120ms, enhancing overall system performance and demonstrating strong SQL database experience.
+• Collaborated with cross-functional teams to deploy real-time analytics dashboards using React.js, resulting in a 30% increase in data-driven decision-making efficiency and showcasing 5+ years of JavaScript development experience.
+• Improved system performance by 45% through the implementation of caching mechanisms using Redis, resulting in faster load times and a more responsive user experience, demonstrating expertise in performance optimization techniques.
+• Deployed applications serving over 10,000 concurrent users, ensuring seamless user experience and high availability, highlighting expertise in scaling applications to support large user bases.
+• Conducted code reviews and implemented best practices to ensure code quality and maintainability, resulting in a 20% reduction in bug incidents and showcasing expertise in software development methodologies.
+
+🏢 TechCorp - Senior Software Engineer
+🏢         August 2018 - Present | San Francisco, CA
+🏢         - Architected and developed a high-traffic web application using React.js and Node.js, handling over 5 million monthly active users, resulting in a 40% increase in user engagement and a 25% decrease in bounce rate, showcasing expert-level React.js and Node.js skills.
+🏢         - Led a team of 8 developers in the migration of legacy systems to a microservices architecture, utilizing Docker and Kubernetes, resulting in a 30% reduction in infrastructure costs and a 20% increase in system scalability, demonstrating leadership and collaboration skills.
+🏢         - Optimized SQL queries in PostgreSQL database, reducing response time from 500ms to 100ms, enhancing application performance by 50% and user experience, showcasing strong SQL database experience.
+🏢         - Implemented CI/CD pipelines using Jenkins, Docker, and AWS, reducing deployment time by 60% and increasing deployment frequency by 40%, demonstrating expertise in DevOps practices.
+🏢         - Collaborated with cross-functional teams to design and implement RESTful APIs for seamless integration with third-party systems, resulting in a 25% increase in data accuracy and system efficiency, showcasing strong teamwork and communication skills.
+🏢         - Improved system performance by 30% through code refactoring and optimization, resulting in a 15% decrease in server costs and a 20% increase in application speed, demonstrating 5+ years of JavaScript development experience.
+
+🏢 TechCorp - Junior Software Engineer
+🏢         May 2019 - Present | San Francisco, CA
+🏢         - Developed and maintained React.js front-end components and Node.js backend services for a high-traffic e-commerce platform, contributing to a 20% increase in user engagement and a 15% decrease in bounce rate
+🏢         - Implemented efficient SQL queries in PostgreSQL database, reducing response time by 40% and enhancing system performance for 5 million monthly active users
+🏢         - Collaborated with a team of 3 developers to refactor legacy codebase, resulting in a 30% reduction in bug reports and a 25% improvement in code maintainability
+🏢         - Optimized application architecture by integrating Redux for state management, leading to a 25% decrease in API response time and increased overall application speed by 20%
+🏢         - Deployed new features using Agile methodology, resulting in a 50% faster time-to-market for new product releases, serving 3 million active users
+🏢         - Conducted code reviews and provided mentorship on React.js best practices, improving team efficiency and code quality by 30%
+
+🎓 EDUCATION & CERTIFICATIONS
+
+
+🎓 Bachelor of Science in Computer Science
+🎓 TechCity University | Graduation Year: 2014
+📚 Relevant Coursework: Advanced Algorithms, Database Management Systems, Web Development
+
+
+🏅 CERTIFICATIONS (Recent & Relevant)
+
+• Certified React.js Developer - TechCert (2022)
+• Node.js Professional Certification - CodeMasters (2023)
+
+══════════════════════════════════════════════════════════
