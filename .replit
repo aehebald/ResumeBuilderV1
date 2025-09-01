@@ -1,0 +1,21 @@
+modules = ["python-3.10:v18-20230807-322e88b"]
+
+[nix]
+channel = "stable-23_05"
+
+[unitTest]
+language = "python3"
+
+[gitHubImport]
+requiredFiles = [".replit", "replit.nix"]
+
+[deployment]
+run = ["python3", "app.py"]
+deploymentTarget = "cloudrun"
+
+[[ports]]
+localPort = 5001
+externalPort = 80
+
+[env]
+PYTHONPATH = "${NIXPKGS_ALLOW_UNFREE=1 python3 -m site --user-site}"

@@ -1,82 +1,75 @@
-# Resume Generator
+# AI Resume Screening Assistant
 
-A Python application that uses the ChatGPT API to generate two types of resumes based on job descriptions:
-1. **Matching Resume**: A resume for a candidate who fits all the job requirements
-2. **Non-Matching Resume**: A resume for a candidate who doesn't fit the job requirements
+A powerful web application for HR professionals and recruiters to generate realistic resume examples (both good and bad) based on job requirements. Uses AI to create training examples for resume screening.
 
-## Setup
+## 🚀 Features
 
-1. Create a virtual environment and install dependencies:
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+- **Smart Requirements Input**: Separate non-negotiables from nice-to-haves
+- **AI-Powered Analysis**: Uses OpenAI to analyze if resumes meet requirements
+- **Resume Generation**: Creates both matching and non-matching resume examples
+- **Detailed Evaluation**: Shows why each requirement passes or fails
+- **PDF Export**: Download resume examples as PDFs
+- **Examples Modal**: View specific evidence from resumes
 
-2. Set up your OpenAI API key:
-```bash
-cp .env.example .env
-# Edit .env and add your OpenAI API key
-```
+## 🛠️ Setup on Replit
 
-## Usage
+1. **Fork this Replit**: Click the fork button to create your own copy
 
-### Generate PDF resumes (default):
-```bash
-source .venv/bin/activate
-python main.py --job-file sample_job_description.txt
-```
+2. **Set OpenAI API Key**: 
+   - Go to the "Secrets" tab in your Replit
+   - Add a new secret with:
+     - Key: `OPENAI_API_KEY`  
+     - Value: Your OpenAI API key (get one at https://openai.com/api/)
 
-### Generate text resumes:
-```bash
-source .venv/bin/activate
-python main.py --job-file sample_job_description.txt --format txt
-```
+3. **Run the App**: Click the "Run" button or run `python main.py`
 
-### Using job description text directly:
-```bash
-source .venv/bin/activate
-python main.py --job-text "Software Engineer position requiring Python, Django, and 5+ years experience..."
-```
+4. **Access the App**: Your app will be available at your Replit URL
 
-### Custom output directory:
-```bash
-source .venv/bin/activate
-python main.py --job-file sample_job_description.txt --output-dir my_resumes
-```
+## 💡 How to Use
 
-## Output
+1. **Enter Requirements**: 
+   - Add your non-negotiable requirements (must-haves)
+   - Add nice-to-have requirements (preferred)
 
-By default, the application generates two PDF files:
-- `matching_resume.pdf` - Resume of a qualified candidate
-- `non_matching_resume.pdf` - Resume of an unqualified candidate
+2. **Generate Examples**: Click "Generate Candidate Examples"
 
-Use `--format txt` to generate text files instead.
+3. **Review Results**: 
+   - See side-by-side comparison of good vs bad resumes
+   - Review AI evaluation of why each requirement passes/fails
+   - Click "Show Examples" to see specific evidence
 
-## How it Works
+4. **Export**: Use "Export PDFs" to download the resume examples
 
-1. **Job Analysis**: Parses the job description to extract:
-   - Must-have requirements
-   - Nice-to-have requirements  
-   - Job title and industry
-   - Key responsibilities
+## 🔧 Files Structure
 
-2. **Resume Generation**: Creates two distinct resumes:
-   - **Matching**: Candidate with all must-haves and most nice-to-haves
-   - **Non-Matching**: Candidate lacking the required qualifications
+- `main.py` - Main entry point for Replit
+- `app.py` - Flask web application
+- `resume_generator.py` - AI resume generation logic
+- `templates/index.html` - Web interface
+- `static/` - CSS, JavaScript, and assets
+- `requirements.txt` - Python dependencies
 
-## Example
+## 🎯 Use Cases
 
-Try the included sample to generate PDF resumes:
-```bash
-source .venv/bin/activate
-python main.py --job-file sample_job_description.txt
-```
+- **HR Training**: Create examples for training resume screeners
+- **Recruitment**: Understand what good vs bad candidates look like
+- **Job Posting**: Validate that your requirements are clear
+- **Screening**: Get AI assistance in evaluating actual candidates
 
-Or test the formatting without API calls:
-```bash
-source .venv/bin/activate
-python test_resume_format.py
-```
+## ⚠️ Requirements
 
-This will analyze the Senior Software Engineer position and generate appropriate matching/non-matching resumes in PDF format.
+- OpenAI API key
+- Internet connection for AI analysis
+- Modern web browser
+
+## 🤖 Technology
+
+- **Backend**: Python Flask
+- **Frontend**: HTML, CSS, JavaScript  
+- **AI**: OpenAI GPT models
+- **PDF**: ReportLab for PDF generation
+- **Deployment**: Replit ready
+
+---
+
+Made with ❤️ for HR professionals and recruiters
