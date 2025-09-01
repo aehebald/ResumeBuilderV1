@@ -14,32 +14,37 @@ class ResumeGenerator {
     initializeEventListeners() {
         // Main generate button
         const generateBtn = document.getElementById('generateBtn');
-        generateBtn.addEventListener('click', () => this.generateResumes());
+        if (generateBtn) {
+            generateBtn.addEventListener('click', () => this.generateResumes());
+        }
 
         // File upload
         const fileInput = document.getElementById('fileInput');
-        fileInput.addEventListener('change', (e) => this.handleFileUpload(e));
-
-        // Export PDF button
-        const exportPdfBtn = document.getElementById('exportPdfBtn');
-        if (exportPdfBtn) {
-            exportPdfBtn.addEventListener('click', () => this.exportPDFs());
+        if (fileInput) {
+            fileInput.addEventListener('change', (e) => this.handleFileUpload(e));
         }
 
-        // New analysis button
-        const newAnalysisBtn = document.getElementById('newAnalysisBtn');
-        if (newAnalysisBtn) {
-            newAnalysisBtn.addEventListener('click', () => this.resetToInput());
-        }
-
-        // Copy buttons
-        document.querySelectorAll('.copy-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => this.copyResume(e.target.closest('.copy-btn')));
-        });
-
-        // Download buttons
-        document.querySelectorAll('.download-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => this.downloadResume(e.target.closest('.download-btn')));
+        // Use event delegation for buttons that are created dynamically
+        document.body.addEventListener('click', (e) => {
+            // Export PDF button
+            if (e.target.closest('#exportPdfBtn')) {
+                this.exportPDFs();
+            }
+            
+            // New analysis button
+            if (e.target.closest('#newAnalysisBtn')) {
+                this.resetToInput();
+            }
+            
+            // Copy buttons
+            if (e.target.closest('.copy-btn')) {
+                this.copyResume(e.target.closest('.copy-btn'));
+            }
+            
+            // Download buttons
+            if (e.target.closest('.download-btn')) {
+                this.downloadResume(e.target.closest('.download-btn'));
+            }
         });
 
         // Modal functionality
