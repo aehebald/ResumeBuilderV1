@@ -148,8 +148,11 @@ if __name__ == '__main__':
     # Check for API key
     if not os.getenv('OPENAI_API_KEY'):
         print("⚠️  Warning: OPENAI_API_KEY environment variable not set!")
-        print("Please set it with: export OPENAI_API_KEY='your-api-key-here'")
+        print("Please set it in your deployment platform's environment variables")
+    
+    # Use PORT from environment (Railway/Heroku) or default to 5001
+    port = int(os.environ.get('PORT', 5001))
     
     print("🚀 Starting Resume AI Generator Web App...")
-    print("🌐 Open your browser to: http://localhost:5001")
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    print(f"🌐 App will be available on port {port}")
+    app.run(debug=False, host='0.0.0.0', port=port)
