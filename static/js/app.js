@@ -31,6 +31,11 @@ class ResumeGenerator {
                 this.exportPDFs();
             }
             
+            // Requirement Evaluation button
+            if (e.target.closest('#requirementEvaluationBtn')) {
+                this.scrollToEvaluation();
+            }
+            
             // New analysis button
             if (e.target.closest('#newAnalysisBtn')) {
                 this.resetToInput();
@@ -217,7 +222,7 @@ class ResumeGenerator {
         }
 
         // Update page title
-        document.title = '🎯 Generating Examples... - Resume Screening Assistant';
+        document.title = '🎯 Generating Examples... - Role Requirements Assistant';
     }
 
     hideLoadingState() {
@@ -228,7 +233,7 @@ class ResumeGenerator {
         if (inputSection) inputSection.style.display = 'block';
 
         // Restore page title
-        document.title = '🎯 Resume Screening Assistant';
+        document.title = '🎯 Role Requirements Assistant';
     }
 
     showResults() {
@@ -256,7 +261,7 @@ class ResumeGenerator {
         this.populateEvaluation();
 
         // Update page title
-        document.title = '📋 Candidate Examples - Resume Screening Assistant';
+        document.title = '📋 Candidate Examples - Role Requirements Assistant';
 
         // Trigger animations
         setTimeout(() => {
@@ -269,6 +274,16 @@ class ResumeGenerator {
                 }, index * 200);
             });
         }, 100);
+    }
+
+    scrollToEvaluation() {
+        const evaluationSection = document.querySelector('.evaluation-section');
+        if (evaluationSection) {
+            evaluationSection.scrollIntoView({ 
+                behavior: 'smooth', 
+                block: 'start' 
+            });
+        }
     }
 
     async populateEvaluation() {
@@ -688,7 +703,7 @@ class ResumeGenerator {
         this.badResume = '';
 
         // Restore page title
-        document.title = '🎯 Resume Screening Assistant';
+        document.title = '🎯 Role Requirements Assistant';
 
         // Focus on textarea
         setTimeout(() => {
@@ -853,7 +868,7 @@ function showAbout() {
     const modal = document.getElementById('modal');
     
     modalBody.innerHTML = `
-        <h2>About Resume Screening Assistant</h2>
+        <h2>About Role Requirements Assistant</h2>
         <p>This AI-powered tool helps HR professionals and recruiters understand candidate quality by generating realistic resume examples based on your job postings.</p>
         
         <h3>How it works:</h3>
