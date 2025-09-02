@@ -1,4 +1,4 @@
-# AI Resume Screening Assistant
+# AI Role Requirements Assistant
 
 A powerful web application for HR professionals and recruiters to generate realistic resume examples (both good and bad) based on job requirements. Uses AI to create training examples for resume screening.
 
